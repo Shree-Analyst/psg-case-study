@@ -1,0 +1,8 @@
+models:
+  - name: stg_ticketing_24_25.sql
+    columns:
+      - name: fan_id
+        data_tests:
+          - relationships:
+              to: ref('stg_profiles')
+              field: fan_id
