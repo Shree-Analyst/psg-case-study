@@ -1,0 +1,6 @@
+sources:
+  - name: psg-case-study-490221
+    database: core
+    schema: psg-case-study-490221
+    tables:
+      - name: profiles
