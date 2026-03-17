@@ -58,7 +58,7 @@ final AS (
     SELECT fan_id,
       country,
       competition,
-      CAST(DATE_TRUNC(purchased_on, DAY) AS DATE),
+      CAST(DATE_TRUNC(purchased_on, DAY) AS DATE) AS purchased_on,
       order_id,
       contingent,
       seat_category,
