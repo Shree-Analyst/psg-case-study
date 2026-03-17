@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: core
+    database: psg-case-study-490221
+    schema: core
+    tables:
+      - name: profiles
+        description: Grain du table = 1 supporteur.
+        columns:
+          - name: Uuid
+            description: Clé primaire de la colonne, identifiant dans d'autres tables.
+            data_tests:
+              - unique
+              - not_null
+      
+      - name: populations
+        description: Grain du table = 1 abonnement acheté.
+      
+      - name: ticketing_23_24
+        description: Grain du table = 1 billet acheté en saison 2023-24.
+        columns:
+          - name: N_Billet
+            data_tests:
+              - unique
+              - not_null
+      
+      - name: ticketing_24_25
+        description: Grain du table = 1 billet acheté en saison 2024-25.
+        columns:
+          - name: "Numéro de Billet"
+            quote: true
+            data_tests:
+              - unique
+              - not_null
