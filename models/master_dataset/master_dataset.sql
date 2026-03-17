@@ -25,5 +25,5 @@ LEFT JOIN {{ ref('int_ticketing_23_24') }}
 UNION ALL
 SELECT *
 FROM profiles_pops
-INNER JOIN {{ ref('int_ticketing_24_25') }}
+INNER JOIN {{ ref('int_ticketing_24_25_2') }}
   USING (fan_id)
