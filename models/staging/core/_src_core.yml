@@ -19,6 +19,17 @@ sources:
       
       - name: ticketing_23_24
         description: Grain du table = 1 billet acheté en saison 2023-24.
+        columns:
+          - name: N_Billet
+            data_tests:
+              - unique
+              - not_null
       
       - name: ticketing_24_25
         description: Grain du table = 1 billet acheté en saison 2024-25.
+        columns:
+          - name: "Numéro de Billet"
+            quote: true
+            data_tests:
+              - unique
+              - not_null
