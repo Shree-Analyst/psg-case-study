@@ -4,6 +4,6 @@ Cette étude est le travail unique de Shreeraj Salunke. Ce document contient les
 
 ## [Sommaire Exécutif]()
 
-## [Tableau de Bord]()
+## [Tableau de Bord](https://public.tableau.com/app/profile/shreeraj.salunke/viz/PSGMarketingPerformanceDashboard/PerfDashboard#1)
 
 ## [Rapport Détaillé]()
